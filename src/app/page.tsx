@@ -1,9 +1,7 @@
-import Image from "next/image";
-
-export default function Home() {
+export default async function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="m-4">
+      <h1>Welcome to your new app!</h1>
     </div>
   );
 }
